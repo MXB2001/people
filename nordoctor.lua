@@ -125,7 +125,7 @@ mobs:register_mob("people:nordoctor", {
 if not mobs.custom_spawn_people then
 mobs:spawn({
 	name = "people:nordoctor",
-	nodes = {"default:acacia_wood"},
+	nodes = {"default:pine_wood"},
 	neighbors = {"people:firstaidnode"},
 	min_light = 0,
 	interval = 30,
@@ -139,3 +139,4 @@ mobs:register_egg("people:nordoctor", S("Doctor Pine"), "anordoctor.png")
 
 -- compatibility
 mobs:alias_mob("people:nordoctor", "people:nordoctor")
+
